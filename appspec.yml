@@ -4,7 +4,7 @@ os: linux
 # Make sure that "destination" is not same for two different Code Deploy Groups/Deployments.
 files:
   - source: /
-    destination: /home/ec2-user/server2
+    destination: test-app-asg     # /home/ec2-user/server2
 
 permissions:
   - object: /
